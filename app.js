@@ -44,7 +44,7 @@ function terminar(){
     alert(`El imorte a pagar son ${importeFinal} pesos`)
     alert("Gracias por su compra")
 }
-function Plato(nombre, precio, disponible){
+function Plato(nombre, precio, ingrediente, disponible){
     this.nombre = nombre
     this.precio = precio
     this.ingrediente = ingrediente
